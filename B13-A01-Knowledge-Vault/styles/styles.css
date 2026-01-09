@@ -20,7 +20,15 @@ body {
     border-radius: 6px;
     cursor: pointer;
 }
+.btn-secondary{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
 
+}
+.btn img{
+    align-items: normal;
+}
 
 
 .header {
@@ -63,4 +71,48 @@ body {
     color: #0f172a;
     font-weight: 600;
     font-size: 14px;
+}
+.hero{
+    background: url(../assets/hero-bg.png) center/cover no-repeat;
+    padding:220px 0 160px;
+    color:#ffffff;
+}
+.herover{
+    display: flex;
+    justify-content: center;
+}
+.container-hero-content {
+
+    max-width:760px;
+}
+.early-access{
+    display: inline-block;
+    color:#22c55e ;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 18px;
+
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+ 
+
+.hero h1 span{
+    color:#22c55e;
+
+}
+.hero p{
+font-size: 16px;
+line-height: 1.7;
+color:#e5e7eb;
+margin-bottom: 32px;
+
+}
+.hero-actions{
+    display: flex;
+    gap: 16px;
 }
