@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    color: #0f172a;
+    
 }
 
 .container {
@@ -115,4 +115,57 @@ margin-bottom: 32px;
 .hero-actions{
     display: flex;
     gap: 16px;
+}
+.problems{
+    padding:120px 0;
+    text-align: center;
+
+}
+.problem h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 12px;
+
+}
+.subtitle{
+    color:#64748b;
+    margin-bottom: 60px;
+
+}
+.problem-cards{
+    display:flex;
+    gap:28px;
+    justify-content: space-between;
+}
+.problem-card{
+    background: #ffffff;
+    padding: 32px 24px;
+    border-radius: 14px;
+    box-shadow: 0 10px 40px;
+    max-width: 260px;
+}
+.problem-card img{
+    height: auto;
+    
+    max-width: 60%;
+
+}
+.circle-container{
+    width:20px;
+    height: 20px;
+    background-color: #ff5f5f;
+    border-radius: 50%;
+    border:1px solid #00a2ff;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+.problem-card h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.problem-card p{
+    font-size: 14px;
+    color:#64748b;
 }
